@@ -1,0 +1,6 @@
+[stream]
+source = pipe:///tmp/snapfifo?name=MyStream
+
+[http]
+# enable snapweb
+doc_root = /usr/share/snapserver/snapweb/
